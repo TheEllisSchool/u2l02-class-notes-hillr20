@@ -15,13 +15,13 @@ public class LinesAndShapes extends DrawableAdapter {
 	public void draw (Graphics g){
 		//change background color
 		//draws/fills in colors in order
-		g.setColor(Color.WHITE);
+		g.setColor(Color.BLACK);
 		g.fillRect(0, 0, 500, 600);
 		
 		//how to make a font - it's a thing
 		Font myFont = new Font("Lucida Handwriting Italic ", Font.BOLD, 32);
 		g.setFont(myFont);
-		g.setColor(Color.BLACK);
+		g.setColor(Color.WHITE);
 		//g.drawString("RH Games", 100, 100);
 		
 		//make a rainbow
@@ -72,6 +72,7 @@ public class LinesAndShapes extends DrawableAdapter {
 		g.drawOval(375, 295, 50, 50);
 		g.drawOval(410, 330, 50, 50);
 		g.drawOval(445, 365, 50, 50);
+		
 		//g.drawOval(485, 395, 50, 50);
 		
 		/*g.drawOval(400, 295, 50, 50);
@@ -80,7 +81,24 @@ public class LinesAndShapes extends DrawableAdapter {
 		g.drawOval(485, 395, 50, 50);
 		*/
 		
+		
 		//draw lines around circles
+		
+		//g.drawLine(125, 75, 125, 325);
+		g.drawLine(75, 75, 75, 475);
+		g.drawLine(75, 75, 125, 75);
+		g.drawLine(75, 475, 125, 475);
+		
+		g.drawLine(285, 475, 365, 475);
+		g.drawLine(285, 475, 285, 425);
+		g.drawLine(365, 475, 365, 425);
+		
+		g.drawLine(450, 75, 550, 75);
+		
+		g.drawLine(165, 325, 285, 325);
+		g.drawLine(165, 225, 285, 225);
+		//g.drawLine(125, 475, 175, 425);
+		
 		//fill lines in black
 		//fill circles in w/ either white or assorted other colors...
 		
@@ -109,7 +127,7 @@ public class LinesAndShapes extends DrawableAdapter {
 		g.drawOval(55, 300, 180, 80);
 		g.setColor(Color.BLUE);
 		g.fillOval(280, 300, 100, 100);*/
-		int mx = 20;
+		/*int mx = 20;
 	    int my = 20;
 	    int ms = 120;
 	    int mg = 120;
@@ -129,7 +147,7 @@ public class LinesAndShapes extends DrawableAdapter {
 	     g2.setColor(Color.black);
 	     g2.fillArc(mx, my, 100, 100, 0, 95);
 	        
-	    
+	    */
 		
 	}
 
