@@ -80,7 +80,9 @@ public class LinesAndShapes extends DrawableAdapter {
 		g.drawOval(485, 395, 50, 50);
 		*/
 		
-	
+		//draw lines around circles
+		//fill lines in black
+		//fill circles in w/ either white or assorted other colors...
 		
 		//make a planet
 		//g.drawOval(55, 300, 200, 80);
